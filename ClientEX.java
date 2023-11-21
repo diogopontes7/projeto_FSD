@@ -103,6 +103,7 @@ public class ClientEX {
                                     out.println(nome);
                                     out.println(qtd);
                                     out.flush();
+
                                     break;
                                 case 2:
                                     System.out.println("Inventario: " + inv);

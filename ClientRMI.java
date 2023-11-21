@@ -31,8 +31,6 @@ public class ClientRMI implements Serializable{
             //Adicionar o client á lista de clientes
             rmiServer.subscribe(client);
 
-            System.out.println();
-
             int opcao1 = 0;
             do {
                 System.out.println("Login:");
